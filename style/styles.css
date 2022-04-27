@@ -52,4 +52,5 @@ ul {
 }
 p {
     font-size: var(--sm);
+    text-align: justify;
 }
