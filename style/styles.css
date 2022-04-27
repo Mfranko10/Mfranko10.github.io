@@ -10,6 +10,13 @@ body {
 h1 {
     text-align: center;
 }
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 700px;
+}
 h2, h3{
     margin-top: 30px;
 }
