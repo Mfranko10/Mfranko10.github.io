@@ -2,13 +2,20 @@
     background-color: gray;
     margin: 5px;
 }
+:root {
+    --sm: 15px;
+    --md: 20px;
+    --lg: 25px;
+}
 body {
     border: 2px solid black;
     border-radius: 30px;
     padding: 5px;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 h1 {
     text-align: center;
+    font-size: var(--lg);
 }
 .imagen {
     display: flex;
@@ -20,10 +27,28 @@ img {
 h2, h3{
     margin-top: 30px;
 }
+h4 {
+    margin-top: 40px;
+    text-align: center;
+}
 ul {
     list-style: disc;
+}
+.lut_table {
+    margin-bottom: 30px;
 }
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 0px;
+}
+.container p {
+    text-align: center;
+}
+p {
+    font-size: var(--sm);
 }
