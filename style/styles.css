@@ -21,9 +21,13 @@ h1 {
 .imagen {
     display: flex;
     justify-content: center;
+    margin: 30px 0;
+}
+.logo {
+    width: 200px;
 }
 img {
-    width: 700px;
+    width: 600px;
 }
 h2, h3{
     margin-top: 30px;
@@ -53,4 +57,12 @@ ul {
 p {
     font-size: var(--sm);
     text-align: justify;
+}
+@media (max-width: 400px) {
+    img {
+        width: 300px;
+    }
+    .logo {
+        width: 100px;
+    }
 }
